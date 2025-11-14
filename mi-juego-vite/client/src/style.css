@@ -1,0 +1,16 @@
+body {
+  /* Fondo oscuro */
+  background-color: #222; 
+  color: white;
+
+  /* Centrar el lienzo en la pantalla */
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+canvas {
+  border: 2px solid white;
+  background-color: #000;
+}
