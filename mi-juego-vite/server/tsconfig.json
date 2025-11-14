@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+	  "target": "ESNext",
+	  "module": "CommonJS", // Fastify/Node usan CommonJS (require)
+	  "moduleResolution": "Node",
+	  "outDir": "./dist", // El JS compilado irá a 'server/dist'
+	  "strict": true,
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "lib": ["ESNext"] // Solo para Node.js, sin DOM
+	},
+	"include": ["server.ts"], // Solo compilará este archivo
+	"exclude": ["node_modules"]
+  }
